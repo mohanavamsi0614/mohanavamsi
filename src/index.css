@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  body {
+    @apply bg-black text-white selection:bg-amber-500/30 selection:text-amber-200;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-amber-600/50 rounded-full hover:bg-amber-500 transition-colors;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 shadow-lg;
+  }
+
+  .glass-card {
+    @apply bg-neutral-900/40 backdrop-blur-md border border-white/5 shadow-xl hover:border-amber-500/30 transition-all duration-300;
+  }
+}
