@@ -1,6 +1,7 @@
 import './App.css'
 import Home from './comps/home'
 import About from './comps/about'
+import Experience from './comps/experience'
 import Skills from './comps/skills'
 import Projects from './comps/projects'
 import Contact from './comps/contact'
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Home id="home" />
       <About id="about" />
+      <Experience />
       <Skills id="skills" />
       <Projects id="projects" />
       <Contact id="contact" />

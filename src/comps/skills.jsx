@@ -118,6 +118,43 @@ function Skills() {
                             <img src={docker} alt="Docker" className="w-16 h-16 object-contain" />
                             <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-blue-400 transition-colors">Docker</p>
                         </div>
+                        <div className="p-6 glass-card rounded-xl flex flex-col items-center justify-center w-full h-full hover:scale-105 transition-all duration-300 group border border-white/5 hover:border-amber-500/30">
+                            <svg width="60" height="60" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#FF9900"><path d="M16 2L2 22h28L16 2zm0 4.5l8.5 12H7.5L16 6.5z" /></svg>
+                            <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-amber-500 transition-colors">AWS</p>
+                        </div>
+                        <div className="p-6 glass-card rounded-xl flex flex-col items-center justify-center w-full h-full hover:scale-105 transition-all duration-300 group border border-white/5 hover:border-amber-500/30">
+                            <svg width="60" height="60" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#D82C20"><path d="M16 2L2 9l14 7 14-7-14-7zM2 23l14 7 14-7v-8L16 22 2 15v8z" /></svg>
+                            <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-red-500 transition-colors">Redis</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {/* Data & Automation Section */}
+                <div className="w-full mb-12">
+                    <h2 className="text-3xl font-bold mb-8 text-neutral-200 border-l-4 border-purple-500 pl-4">Data & Automation</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
+                        <div className="p-6 glass-card rounded-xl flex flex-col items-center justify-center w-full h-full hover:scale-105 transition-all duration-300 group border border-white/5 hover:border-amber-500/30">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300 group-hover:text-blue-400"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" /></svg>
+                            <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-blue-400 transition-colors">Data Engineering</p>
+                        </div>
+                        <div className="p-6 glass-card rounded-xl flex flex-col items-center justify-center w-full h-full hover:scale-105 transition-all duration-300 group border border-white/5 hover:border-amber-500/30">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300 group-hover:text-green-400"><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" /></svg>
+                            <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-green-400 transition-colors">Web Scraping</p>
+                        </div>
+                        <div className="p-6 glass-card rounded-xl flex flex-col items-center justify-center w-full h-full hover:scale-105 transition-all duration-300 group border border-white/5 hover:border-amber-500/30">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300 group-hover:text-green-500"><path d="M9 18a6 6 0 1 1 6-6M9 22V12h6" /></svg>
+                            <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-green-500 transition-colors">Puppeteer</p>
+                        </div>
+                        <div className="p-6 glass-card rounded-xl flex flex-col items-center justify-center w-full h-full hover:scale-105 transition-all duration-300 group border border-white/5 hover:border-amber-500/30">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300 group-hover:text-orange-500"><polygon points="5 3 19 12 5 21 5 3" /></svg>
+                            <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-orange-500 transition-colors">Playwright</p>
+                        </div>
+                        <div className="p-6 glass-card rounded-xl flex flex-col items-center justify-center w-full h-full hover:scale-105 transition-all duration-300 group border border-white/5 hover:border-amber-500/30">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-300 group-hover:text-indigo-400"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4M12 3v18M3 8l9 5 9-5M3 16l9 5 9-5" /></svg>
+                            <p className="text-center mt-4 font-semibold text-neutral-300 group-hover:text-indigo-400 transition-colors">Data Mgmt</p>
+                        </div>
                     </div>
                 </div>
 
@@ -165,7 +202,7 @@ function Skills() {
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 }
 

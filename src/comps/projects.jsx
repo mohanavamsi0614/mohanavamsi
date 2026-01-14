@@ -7,6 +7,7 @@ import insta from "../assets/Screenshot 2024-10-06 152552.png"
 import dasho from "../assets/dasho.png"
 import lovable from "../assets/lovable.png"
 import vercel from "../assets/vercel.png"
+import arya from "../assets/arya.png"
 
 function Projects() {
   const projects = [
@@ -43,6 +44,24 @@ function Projects() {
       image: dasho,
       githubLink: "https://github.com/mohanavamsi0614/dashoo_p",
       deployedLink: "https://dashoo-p.vercel.app"
+    },
+    {
+      title: "Arya – Restaurant Management Website",
+      description:
+        "A full-featured restaurant website with a modern UI and an admin dashboard for managing menus, content, and customer reservations.",
+      stack: "React, Node.js, Express.js, MongoDB",
+      features: [
+        "Modern, responsive UI for customers",
+        "Dynamic food menu management",
+        "Admin (owner) dashboard with secure login",
+        "Add, update, and delete menu items and categories",
+        "Online table reservation management",
+        "Role-based access control (admin & customers)",
+        "Database-driven content management system"
+      ],
+      image: arya,
+      githubLink: "https://github.com/mohanavamsi0614/arya",
+      deployedLink: "https://aryarestaurant.co.uk/"
     },
 
     {
@@ -154,7 +173,7 @@ function Projects() {
         Featured Projects
       </h1>
 
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" >
         {projects.map((project, index) => (
           <div
             key={index}
